@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "puppeteer": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
+    },
+    "shell-commands": {
+      "command": "pnpm",
+      "args": ["tsx", "scripts/mcp-shell-server.ts"]
+    }
+  }
+}
