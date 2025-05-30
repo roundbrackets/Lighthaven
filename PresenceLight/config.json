@@ -1,0 +1,29 @@
+{
+  "thresholds": {
+    "idle_time": 60,
+    "fragmented_window_changes": 3,
+    "focused_stability": 120
+  },
+  "led": {
+    "enabled": false,
+    "port": null,
+    "brightness": 0.8
+  },
+  "colors": {
+    "focused": {
+      "r": 0,
+      "g": 255,
+      "b": 0
+    },
+    "fragmented": {
+      "r": 255,
+      "g": 165,
+      "b": 0
+    },
+    "absent": {
+      "r": 100,
+      "g": 100,
+      "b": 255
+    }
+  }
+}
